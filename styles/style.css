@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Azeret Mono", serif;
+}
+
+.p-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.p-text{
+    color: rgb(13, 19, 33);
+}
+
+.sub{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button, input{
+    font-family: "Azeret Mono", serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 100px;
+}
+
+.nav>h3{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.nav>button{
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner{
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner>div{
+    width: 70%;
+}
+
+.banner>div>img{
+    margin-top: 45px;
+}
+
+.banner>div>h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.banner>div>button{
+    border-radius: 8px;
+    border: none;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.why{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 60px auto;
+}
+
+.why>.w-1{
+    text-align: center;
+}
+
+.why>.w-1>p{
+    margin-top: 24px;
+    margin-bottom: 45px;
+}
+
+.why>.w-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 30px;
+}
+
+.why>.w-2>div>h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.why>.w-2>div>p{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.why>.w-2>div>button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
+
+.insp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: 100px auto;
+}
+
+.insp>div>p{
+    margin-top: 24px;
+    margin-bottom: 60px;
+    padding: 0 70px;
+}
+
+.insp>.frame{
+    width: 100%;
+}
+
+.insp>.frame>iframe{
+    border-radius: 16px;
+    width: 100%;
+    height: 100vh;
+}
+
+.target{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: 150px auto;
+}
+
+.t-info>p{
+    margin-top: 24px;
+    margin-bottom: 50px;
+    padding: 0 70px;
+}
+
+.t-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    gap: 30px;
+}
+
+.t-0{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 30px;
+}
+
+.t-1{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 30px;
+}
+
+.t-0 h3, .t-1 h3{
+    margin-top: 20px;
+}
+
+.t-0 p, .t-1 p{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.next{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: 150px auto;
+    gap: 50px;
+}
+
+.n-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.n-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    gap: 25px;
+    border: 1px solid grey;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.n-1>div>img{
+    width: 110px;
+    height: 95px;
+}
+
+.n-1 p{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: 150px auto;
+    gap: 20px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 65px 50px;
+    border-radius: 16px;
+}
+
+.support>h3{
+    color: white;
+    opacity: 0.9;
+}
+.support>p{
+    color: white;
+    opacity: 0.8;
+}
+
+.input> input{
+    padding: 22px 20px 20px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    border: none;
+}
+
+.input>button{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 14px 20px 17px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    margin-top: 5px;
+}
+
+.foot{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 150px;
+}
